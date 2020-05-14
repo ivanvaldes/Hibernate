@@ -1,0 +1,5 @@
+docker build -t mysql-hibernate .
+docker run -d -p 3308:3306 --name mysql -e MYSQL_ROOT_PASSWORD=r00t mysql-hibernate
+docker logs -f mysql
+docker stop mysql; docker rm mysql
+docker exec -it my-mysql bash
