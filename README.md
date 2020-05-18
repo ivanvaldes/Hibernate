@@ -1,7 +1,7 @@
 # Hibernate
-An application will be created to reinforce these technologies:
-
+Application built using:
 - Java
+- Spring
 - Hibernate
+- Docker
 - Mysql
-- Docker to deploy the database
